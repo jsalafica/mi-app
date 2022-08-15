@@ -3,7 +3,7 @@ import React from "react";
 function Card(props) {
     return(
         <div className="col-md-3">
-            <div className='card m-2'>
+            <div className='card'>
                 <div  className='card-header'>
                     <h4>{props.titulo}</h4>
                 </div>
